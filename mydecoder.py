@@ -143,18 +143,3 @@ TextBox.grid(row=1,column=0,columnspan=2,padx=30)
 
 
 mainloop()    
-
-print(alphabet)
-print(alphabet[0])
-temp=[]
-
-for i in alphabet:
-    if i in lib:
-        temp.append(lib[i])
-
-print(len(temp))
-
-for i in range(len(temp)):
-    str+=temp[i]
-
-print(f"Secret Code is : {str}")    
